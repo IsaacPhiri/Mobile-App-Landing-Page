@@ -3,7 +3,7 @@ import styled from "styled-components";
 const FooterContainer = styled.div`
   text-align: center;
   padding: 20px;
-  background: #2a5298;
+  background: linear-gradient(135deg, #050a13, #43649e);
   color: white;
 `;
 
