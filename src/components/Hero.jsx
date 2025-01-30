@@ -8,7 +8,7 @@ const HeroSection = styled.div`
   align-items: center;
   text-align: center;
   min-height: 0 auto;
-  background: linear-gradient(135deg, #1e3c72, #43649e);
+  background: linear-gradient(135deg, #050a13, #43649e);
   color: white;
   padding: 20px;
 `;
@@ -32,7 +32,7 @@ const Hero = () => {
       <p>The best mobile app for productivity and success.</p>
       <DownloadButton 
         aria-label="Download MyApp"
-        onClick={() => window.open('#download-link', '_blank')}
+        onClick={() => window.open('https://github.com/IsaacPhiri/Mobile-App-Landing-Page', '_blank')}
       >
         Download Now
       </DownloadButton>
