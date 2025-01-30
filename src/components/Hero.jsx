@@ -13,8 +13,8 @@ const HeroSection = styled.div`
   padding: 20px;
 `;
 
-// Separate motion component for better performance
-const AnimatedHero = motion(HeroSection);
+// Using motion.create() instead of motion()
+const AnimatedHero = motion.create(HeroSection);
 
 const DownloadButton = styled.button`
   padding: 10px 20px;
@@ -44,7 +44,6 @@ const Hero = () => {
         transition={{ duration: 2 }}
         style={{ width: '100%', maxWidth: '400px', marginTop: '20px' }}
       />
-      
     </AnimatedHero>
   );
 };
