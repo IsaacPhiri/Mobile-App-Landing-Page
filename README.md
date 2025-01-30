@@ -59,4 +59,3 @@ Feel free to submit issues and pull requests.
 ## License
 
 MIT License - feel free to use this project as a template for your own landing page.
-```
