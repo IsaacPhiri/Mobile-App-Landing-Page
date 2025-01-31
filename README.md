@@ -2,6 +2,7 @@
 
 A modern, responsive landing page built with React and Vite. This project showcases a mobile app with animated components, feature highlights, and a clean design.
 
+![Mobile App Landing Page](./src/assets/graph-icon.jpeg)
 ## Features
 
 - Animated hero section with app preview
@@ -10,13 +11,26 @@ A modern, responsive landing page built with React and Vite. This project showca
 - Modern UI with gradient backgrounds
 - Smooth animations using Framer Motion
 
-## Technologies Used
+## Technologies & Packages
 
-- **React** - UI framework
-- **Vite** - Build tool with Hot Module Replacement (HMR)
-- **Styled Components** - CSS-in-JS styling
-- **Framer Motion** - Animation library
-- **React Icons** - Icon components
+### Core Dependencies
+- **React** (^18.3.1) - UI framework
+- **React DOM** (^18.3.1) - React rendering for web
+- **Styled Components** (^6.1.8) - CSS-in-JS styling
+- **Framer Motion** (^11.0.8) - Animation library
+- **React Icons** (^5.0.1) - Icon components
+- **Prop Types** (^15.8.1) - Runtime type checking
+
+### Development Dependencies
+- **Vite** (^6.0.5) - Build tool and dev server
+- **@vitejs/plugin-react** (^4.3.4) - React support for Vite
+- **ESLint** (^9.17.0) - Code linting
+  - eslint-plugin-react (^7.37.2)
+  - eslint-plugin-react-hooks (^5.0.0)
+  - eslint-plugin-react-refresh (^0.4.16)
+- **TypeScript Types**
+  - @types/react (^18.3.18)
+  - @types/react-dom (^18.3.5)
 
 ## Getting Started
 
@@ -36,6 +50,26 @@ npm run dev
 - `npm run build` - Build for production
 - `npm run preview` - Preview production build
 - `npm run lint` - Run ESLint
+
+## Create Project Without Cloning the repository
+### Follow the following steps, then copy the files from the repository to the project directory
+
+```bash
+# Create a new project with Vite
+npm create vite@latest mobile-app-landing-page -- --template react
+
+# Navigate to project directory
+cd mobile-app-landing-page
+
+# Install core dependencies
+npm install styled-components framer-motion react-icons prop-types
+
+# Install development dependencies
+npm install -D @types/react @types/react-dom eslint eslint-plugin-react eslint-plugin-react-hooks eslint-plugin-react-refresh
+
+# Start development server
+npm run dev
+```
 
 ## Project Structure
 
