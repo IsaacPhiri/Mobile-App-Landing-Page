@@ -61,6 +61,9 @@ npm create vite@latest mobile-app-landing-page -- --template react
 # Navigate to project directory
 cd mobile-app-landing-page
 
+# Install dependancies
+npm install
+
 # Install core dependencies
 npm install styled-components framer-motion react-icons prop-types
 
