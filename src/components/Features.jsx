@@ -17,30 +17,32 @@ const IconWrapper = styled.span`
 
 const Features = () => {
   return (
-    <FeaturesContainer>
-      <h2>Why Choose MyApp?</h2>
-      <Feature>
-        <IconWrapper>
-          <FaMobile size={40} color="#2a5298" aria-hidden="true" />
-        </IconWrapper>
-        <h3>Mobile Friendly</h3>
-        <p>Designed for smooth mobile experience.</p>
-      </Feature>
-      <Feature>
-        <IconWrapper>
-          <FaLock size={40} color="#2a5298" aria-hidden="true" />
-        </IconWrapper>
-        <h3>Secure</h3>
-        <p>End-to-end encryption for data protection.</p>
-      </Feature>
-      <Feature>
-        <IconWrapper>
-          <FaRocket size={40} color="#2a5298" aria-hidden="true" />
-        </IconWrapper>
-        <h3>Fast Performance</h3>
-        <p>Optimized for high-speed usage.</p>
-      </Feature>
-    </FeaturesContainer>
+    <section id="features-section">
+      <FeaturesContainer>
+        <h2>Why Choose MyMobileApp?</h2>
+        <Feature>
+          <IconWrapper>
+            <FaMobile size={40} color="#2a5298" aria-hidden="true" />
+          </IconWrapper>
+          <h3>Mobile Friendly</h3>
+          <p>Designed for smooth mobile experience.</p>
+        </Feature>
+        <Feature>
+          <IconWrapper>
+            <FaLock size={40} color="#2a5298" aria-hidden="true" />
+          </IconWrapper>
+          <h3>Secure</h3>
+          <p>End-to-end encryption for data protection.</p>
+        </Feature>
+        <Feature>
+          <IconWrapper>
+            <FaRocket size={40} color="#2a5298" aria-hidden="true" />
+          </IconWrapper>
+          <h3>Fast Performance</h3>
+          <p>Optimized for high-speed usage.</p>
+        </Feature>
+      </FeaturesContainer>
+    </section>
   );
 };
 
