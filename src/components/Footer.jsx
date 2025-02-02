@@ -8,7 +8,7 @@ const FooterContainer = styled.div`
 `;
 
 const Footer = () => {
-  return <FooterContainer>© 2025 MyApp. All rights reserved.</FooterContainer>;
+  return <FooterContainer>© 2025 MyMobileApp. All rights reserved.</FooterContainer>;
 };
 
 export default Footer;
