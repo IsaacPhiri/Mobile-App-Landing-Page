@@ -2,7 +2,7 @@
 
 A modern, responsive landing page built with React and Vite. This project showcases a mobile app with animated components, feature highlights, and a clean design.
 
-![Mobile App Landing Page](./src/assets/graph-icon.jpeg)
+![Mobile App Landing Page](./src/assets/app-banner.jpg)
 ## Features
 
 - Animated hero section with app preview
