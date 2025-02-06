@@ -116,13 +116,13 @@ const Contact = () => {
             <IconWrapper>
               <FaPhone />
             </IconWrapper>
-            <ContactText>+1 (555) 123-4567</ContactText>
+            <ContactText>+260 955 693 413</ContactText>
           </ContactInfo>
           <ContactInfo>
             <IconWrapper>
               <FaMapMarkerAlt />
             </IconWrapper>
-            <ContactText>123 App Street, Silicon Valley, CA</ContactText>
+            <ContactText>Kitwe, Zambia</ContactText>
           </ContactInfo>
         </ContactGrid>
 
