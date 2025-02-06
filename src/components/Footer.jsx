@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { FaFacebook, FaInstagram, FaLinkedin, FaGithub, FaHeart, FaXTwitter } from "react-icons/fa6";
+import { FaFacebook, FaInstagram, FaLinkedin, FaGithub, FaXTwitter } from "react-icons/fa6";
 
 const FooterSection = styled.footer`
   background: linear-gradient(135deg, #050a13, #2a5298);
@@ -150,9 +150,7 @@ const Footer = () => {
 
       <BottomBar>
         <Copyright>
-          <span>© 2025 MyMobileApp. Made with</span>
-          <FaHeart style={{ color: '#ff6b6b' }} />
-          <span>by Isaac Phiri</span>
+          <span>© 2025 MyMobileApp. by Isaac Phiri</span>
         </Copyright>
         <LegalLinks>
           <Link href="#">Privacy</Link>
