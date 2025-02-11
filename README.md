@@ -81,7 +81,12 @@ src/
 ├── components/ # React components
 │ ├── Hero.jsx
 │ ├── Features.jsx
-│ └── Footer.jsx
+│ ├── Footer.jsx
+| ├── Navbar.jsx
+| ├── Testimonials.jsx
+| ├── Pricing.jsx
+| ├── HowItWorks.jsx
+| └── Contact.jsx
 ├── styles/
 │ └── GlobalStyles.js # Global styles
 ├── assets/ # Images and other assets
